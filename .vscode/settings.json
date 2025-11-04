@@ -1,0 +1,69 @@
+{
+  // 启用保存时自动格式化
+  "editor.formatOnSave": true,
+  
+  // 启用保存时自动修复
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit",
+    "source.organizeImports": "explicit"
+  },
+  
+  // 设置默认格式化程序为Prettier
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  
+  // 为特定文件类型设置格式化程序
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  
+  // 配置Prettier
+  "prettier.requireConfig": true,
+  
+  // 启用尾随逗号
+  "prettier.trailingComma": "all",
+  
+  // 单引号
+  "prettier.singleQuote": true,
+  
+  // 打印宽度
+  "prettier.printWidth": 100,
+  
+  // 缩进设置
+  "prettier.tabWidth": 2,
+  "prettier.useTabs": false,
+  
+  // 分号
+  "prettier.semi": true,
+  
+  // 其他Prettier设置
+  "prettier.bracketSpacing": true,
+  "prettier.arrowParens": "avoid",
+  "prettier.endOfLine": "lf"
+}
