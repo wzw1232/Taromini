@@ -1,4 +1,4 @@
-@import '@/styles/variables.scss';
+@import '@/styles/global.scss';
 
 .pagaWrap {
   width: 100vw;
@@ -12,4 +12,36 @@
   flex: 1;
   overflow: scroll;
   background-color: $pages-bg-color;
+}
+
+.navTitle {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.titleBox {
+  flex: 1;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.titleText {
+  font-weight: bold;
+  font-size: 32px;
+}
+.leftTitleBox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.iconBtn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }

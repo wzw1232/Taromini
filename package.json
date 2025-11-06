@@ -13,6 +13,7 @@
     "eslint": "npx eslint -c eslint.config.js '**/*.{js,jsx,ts,tsx}' && npx tsc -p tsconfig.json --skipLibCheck",
     "stylelint": "npx stylelint --aei --config stylelint.config.js '**/*.{css,less,scss}'",
     "prettier": "npx prettier --write '**/*.{js,jsx,ts,tsx,md,html,css,less,scss}'",
+    "iconfont": "npx rimraf src/components/icon && npx antm-icon",
     "prepare": "husky",
     "new": "taro new",
     "build:weapp": "taro build --type weapp",

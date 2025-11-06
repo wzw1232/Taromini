@@ -1,6 +1,4 @@
-import Flex from '@/components/flex';
-import { Text } from '@tarojs/components';
-import { pxTransform } from '@tarojs/taro';
+import Container from '@/components/container';
 
 export interface SpaceListProps {
   roomId: number;
@@ -14,9 +12,10 @@ export interface SpaceListProps {
 const IndexPage: React.FC = () => {
   console.log(process.env.TARO_ENV, '??????????????????');
   return (
-    <Flex style={{ width: pxTransform(750), height: '100vh', backgroundColor: '#f09876' }}>
-      <Text>我司你爹</Text>
-    </Flex>
+    // <Flex style={{ width: pxTransform(750), height: '100vh', backgroundColor: '#f09876' }}>
+    //   <Text>我司你爹</Text>
+    // </Flex>
+    <Container></Container>
   );
 };
 
